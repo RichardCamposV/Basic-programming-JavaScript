@@ -31,4 +31,4 @@ var b = 20;
 var c = 10;
 var d = 25;
 
-console.log(((c > a && c < b) || (d > a && d < b)) || ((a > c && a < d) || (b > c && b < d)));
+console.log(((c >= a && c <= b) || (d >= a && d <= b)) || ((a >= c && a <= d) || (b >= c && b <= d)));
