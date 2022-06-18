@@ -80,12 +80,12 @@ var blank_spaces = 15;
 var tree = '';
 var counter = 1;
 var symbol = 1;
-var complete_tree = true;
+var complete_tree = false;
 
 console.log();
 console.log();
 
-while (complete_tree){
+while (!complete_tree){
     for (var i = 1; i <= blank_spaces; i++){
         tree += ' ';
         // counter += 1;
@@ -105,6 +105,6 @@ while (complete_tree){
         tree = '';
         symbol += 2;
     } else {
-        complete_tree = false;
+        complete_tree = true;
     }    
 }
